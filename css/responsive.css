@@ -1,0 +1,104 @@
+/* ***************************************
+******************************************1199 */
+
+@media (max-width: 1199px) {
+  .improved {
+    padding-top: 100px;
+    padding-bottom: 180px;
+  }
+}
+
+/* ***************************************
+******************************************991 */
+
+@media (max-width: 991px) {
+  .padding-stay {
+    padding-bottom: 150px !important;
+  }
+
+  .padding-leave {
+    padding-bottom: 40px !important;
+  }
+
+  .about {
+    padding: 0 0;
+  }
+
+  .about-us br {
+    display: none;
+  }
+
+  .media-content {
+    margin-left: 15px !important;
+  }
+
+  .about-us h6 {
+    color: #f1c8dc;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .portfolio h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    background-color: #e4c17d !important;
+    left: 44%;
+    transform: translateX(-50%);
+    transform: translateY(350%);
+    border-radius: 2px;
+  }
+
+  .skills h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    background-color: #dfe7ec;
+    left: 44%;
+    transform: translateX(-50%);
+    transform: translateY(350%);
+    border-radius: 2px;
+  }
+
+  .about-us h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    background-color: #b73a6d !important;
+    left: 44%;
+    transform: translateX(-50%);
+    transform: translateY(350%);
+    border-radius: 2px;
+  }
+
+  .footer-form h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 4.5px;
+    background-color: #263b75 !important;
+    left: 44%;
+    transform: translateX(-50%);
+    transform: translateY(350%);
+    border-radius: 2px;
+  }
+}
+
+/* ***************************************
+******************************************767 */
+
+@media (max-width: 767px) {
+}
+
+/* ***************************************
+******************************************576 */
+
+@media (max-width: 576px) {
+}
