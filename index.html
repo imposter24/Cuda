@@ -14,51 +14,31 @@
   </head>
 
   <body>
-    <!-- HEADER HTML STARTS HERE -->
-    <header class="my-header">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img src="images/logo.png" alt="logo here"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">
+        <img src="images/logo.png" alt="logo here" />
+      </label>
+      <ul class="show-nav">
+        <!-- <div class="close-btn text-end">
+          <i class="fas fa-times"></i>
+        </div> -->
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </nav>
+    <section></section>
     
 
     <div class="improved">
         <div class="container">
-            <p>Hi there! We are the new kids on the block<br />
+            <p>Hi there! We are the new kids on the block
                 and we built awesome websites and mobile apps.</p>
                 <br /><br /><a href="#">Work with us!</a>
         </div>
@@ -66,11 +46,11 @@
 
     <div class="services-section">
       <div class="container">
-        <div class="services-heading text-center">
+        <div class="services-heading text-center other-p">
           <h3>Services we provide</h3>
           <p><br/>
             We are working with both indivisuals and businesses from all over
-            the globe</br>to create awesome websites and applications.
+            the globe to create awesome websites and applications.
           </p>
         </div>
         <div class="row">
@@ -178,9 +158,9 @@
 
     <div class="skills">
       <div class="container">
-        <div class="services-heading text-center">
+        <div class="services-heading text-center other-p1">
           <h3>We got skills!</h3>
-          <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua
+          <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
         <div class="row">
@@ -213,9 +193,9 @@
 
     <div class="portfolio">
       <div class="container">
-        <div class="services-heading text-center">
+        <div class="services-heading text-center other-p2">
           <h3>Our portfolio!</h3>
-          <p></p><br>Neque porro quisquam est, qui dolorem, ipsum quia dolor sit amet<br>consectetur, adipisci velit, sed quia non numquam<br><br></p>
+          <p><br>Neque porro quisquam est, qui dolorem, ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam<br><br></p>
           <a class="nav-link1" href="#">all</a>
           <a class="nav-link1" href="#">web</a>
           <a class="nav-link1" href="#">apps</a>
@@ -264,9 +244,10 @@
 
     <div class="about-us">
       <div class="container">
-        <div class="services-heading text-center">
+        <div class="services-heading text-center other-h6">
           <h3>What people say about us</h3>
-          <h6><br><br>Our clients love us!</h6>
+          <p class="other-p13">Our clients love us!</p>
+          <h6><br><br></h6>
         </div>
         <div class="row">
           <div class="col-md-6">
@@ -275,7 +256,7 @@
                 <div class="flex-shrink-0">
                   <img src="images/circle-2.png" alt="..." class="img-fluid">
                 </div>
-                <div class="flex-grow-1 ms-3 media-content space-evenly space-evenly24">
+                <div class="flex-grow-1 ms-3 media-content space-evenly">
                   <h6>"Nullam dapibus blandit orci, viverra<br>gravida dui lobortis eget. Maecenas <br>fringilla urna eu nisl scelerisque"</h6>
                   <h5>Channel Iman</h5>
                   <p>CEO of Pinterest</p>
@@ -289,7 +270,7 @@
                 <div class="flex-shrink-0">
                   <img src="images/circle-2.png" alt="..." class="img-fluid">
                 </div>
-                <div class="flex-grow-1 ms-3 media-content space-evenly space-evenly24">
+                <div class="flex-grow-1 ms-3 media-content space-evenly">
                   <h6>"Vivamus luctus urna sed urna ultricies <br>ac tempor dui sagittis. In condimentum <br>facilisis porta."</h6>
                   <h5>Adriana Lima</h5>
                   <p>Founder of Instagram</p>
@@ -335,24 +316,24 @@
       <div class="container">
         <div class="services-heading text-center">
           <h3>Get in Touch</h3>
-          <h6>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America.<br>Call (202) 456-1111</h6>
+          <h6>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. <br>Call (202) 456-1111</h6>
         </div>
         <div class="form">
           <form>
             <div class="row">
               <div class="col-md-6">
                 <div class="mb-3">
-                  <input type="text" class="form-control" id="name" placeholder="Your Name*">
+                  <input type="text" class="form-control" id="name" placeholder="Your Name">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="mb-3">
-                  <input type="email" class="form-control" placeholder="Your Email*" id="email">
+                  <input type="email" class="form-control" placeholder="Your Email" id="email">
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="mb-3">
-                  <textarea placeholder="Your Message*" name="" id="message" rows="7" class="form-control"></textarea>
+                  <textarea placeholder="Your Message" name="" id="message" rows="7" class="form-control"></textarea>
                 </div>
               </div>
             </div>
@@ -379,5 +360,23 @@
     <script src="js/bootstrap.min.js "></script>
     <script src="js/popper.min.js "></script>
     <script src="js/swiper-bundle.min.js "></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".checkbtn").click(function(){
+          if ($(".checkbtn i").hasClass("fa-bars")) {
+            $(".checkbtn i").removeClass("fa-bars")
+            $(".checkbtn i").addClass("fa-times")
+            $("body").css("overflow", "hidden")
+
+          } else {
+            $(".checkbtn i").removeClass("fa-times")
+            $(".checkbtn i").addClass("fa-bars")
+            $("body").css("overflow", "scroll")
+          }
+        })
+
+      })
+    </script>
   </body>
 </html>
