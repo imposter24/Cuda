@@ -199,6 +199,16 @@ nav ul li a:hover {
   .footer-form h3 {
     padding-bottom: 30px !important;
   }
+
+  .social-links a {
+    text-decoration: underline #c0d2dc !important;
+    -webkit-text-decoration: underline #c0d2dc !important;
+  }
+
+  .social-links a:hover {
+    text-decoration: underline #4e555b !important;
+    -webkit-text-decoration: underline #4e555b !important;
+  }
 }
 
 .improved {
@@ -349,7 +359,7 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-.social-links .links {
+.social-links a {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -363,12 +373,12 @@ nav ul li a:hover {
   text-decoration: underline #c0d2dc;
 }
 
-.social-links .links i {
+.social-links a i {
   color: white;
   text-decoration: none !important;
 }
 
-.social-links:hover .links:hover {
+.social-links a:hover {
   background-color: #4e555b;
   text-decoration: underline #4e555b;
 }
