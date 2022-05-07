@@ -449,7 +449,7 @@ nav ul li a:hover {
   border-radius: 2px;
 }
 
-.nav-link1 a {
+.nav-link1 {
   margin: 0 5px;
   display: inline;
   background-color: #ebc884;
@@ -464,8 +464,9 @@ nav ul li a:hover {
   transition: all 0.5s;
 }
 
-.nav-link1 a:hover {
+.nav-link1:hover {
   background: #fff;
+  color: #4d423e;
 }
 
 .portfolio img {
