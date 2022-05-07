@@ -127,7 +127,7 @@ nav ul li a:hover {
 }
 
 @media (max-width: 450px) {
-  .nav-link1 a {
+  .nav-link1 {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
